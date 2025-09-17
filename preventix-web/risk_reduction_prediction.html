@@ -254,7 +254,7 @@
         else if (data.Gender === "Female") data.Calories = selectedCarbs.Calories_Female;
       }
 
-      fetch("https://risk-model-eegz.onrender.com/predict", {
+      fetch("", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
@@ -275,3 +275,4 @@
 
 </body>
 </html>
+
