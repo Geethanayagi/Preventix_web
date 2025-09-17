@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDPrAlNuESzt0TA3oGZektWyKmwoCydO8I",
-  authDomain: "sepsis-dashboard.firebaseapp.com",
-  projectId: "sepsis-dashboard",
-  storageBucket: "sepsis-dashboard.firebasestorage.app",
-  messagingSenderId: "636166521825",
-  appId: "1:636166521825:web:ebdab56a07a1e26839c8a0"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
@@ -38,4 +38,5 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 */
+
 
